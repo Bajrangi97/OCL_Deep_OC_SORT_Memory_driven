@@ -6,7 +6,7 @@ import os
 import numpy as np
 import json
 import cv2
-#/mnt/DATA/EE22M204/Downloads/OCL_DEEP_OC_SORT-exp/tools/convert_dance_to_coco.py
+# ./OCL_DEEP_OC_SORT-exp/tools/convert_dance_to_coco.py
 
 DATA_PATH = "data/dancetrack"
 OUT_PATH = os.path.join(DATA_PATH, "annotations")
