@@ -10,8 +10,8 @@ import cv2
 
 DATA_PATH = "data/dancetrack"
 OUT_PATH = os.path.join(DATA_PATH, "annotations")
-#SPLITS = ['train', 'val', 'test']
-SPLITS = ["test"]
+SPLITS = ['train', 'val', 'test']
+#SPLITS = ["test"]
 print("Starting the script execution...")
 print("annotation is generated for the split :", SPLITS)
 print("..............")
