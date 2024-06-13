@@ -6,7 +6,7 @@
 
 
 <center>
-<img src="complete_pipeline.png" width="600"/>
+<img src="pipeline.png" width="600"/>
 </center>
 
 Results on  MOT17 Val dataset
