@@ -21,7 +21,7 @@ Result on DanceTrack Test Dataset
 | ---------------- | ---- | ---- | ---- | ---- | ----- | 
 | DanceTrack | 62.6 | 48.4 | 81.1 | 89.9| 63.4 | 
 
-* As of Mar 9th, 2023, Deep-OC-SORT ranks 1st compared to published methods on MOT17 and MOT20 w.r.t. HOTA. It improves tracking performance on DanceTrack over [OC-SORT](https://github.com/noahcao/OC_SORT) by ~6 HOTA.
+
 
 ## Installation
 
