@@ -121,10 +121,11 @@ above.
 
 You can achieve higher results on individual datasets with different parameters, but we kept them fairly consistent with round 
 numbers to avoid over-tuning.
-```
+
 For training the FastReid on Dancetrack dataset:
 Go to: ./external/fast_reid/datasets
-run the command
+```
+# run the command
 python3 generate_mot_patches.py
 ```
 ## Contributing
