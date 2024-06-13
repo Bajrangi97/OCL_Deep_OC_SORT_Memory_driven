@@ -3,22 +3,24 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2302.11813-<COLOR>.svg)](https://arxiv.org/abs/2302.11813) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&color=red)
 
 
-### Deep OC-SORT: Multi-Pedestrian Tracking by Adaptive Re-Identification [[arxiv]](https://arxiv.org/abs/2302.11813)
-Gerard Maggiolino*, Adnan Ahmad*, Jinkun Cao, Kris Kitani (*=equal contribution)
+
 
 <center>
 <img src="pipeline.png" width="600"/>
 </center>
 
+Results on Val dataset
 
 | Dataset          | HOTA | AssA | IDF1 | MOTA  | IDs   | Frag   |
 | ---------------- | ---- | ---- | ---- | ---- | ----- | ---- |
 | MOT17 | 64.9 | 65.9 | 80.6 | 79.4 | 1,950 | 2,040  |
 | MOT20 | 63.9 | 65.9 | 79.2 | 75.6 | 779  | 1,536  |
 
+Result on DanceTrack Test Dataset
+
 | Dataset          | HOTA | AssA | DetA | MOTA  | IDF1   |
 | ---------------- | ---- | ---- | ---- | ---- | ----- | 
-| DanceTrack | 61.3 | 45.8 | 82.2 | 92.3| 61.5 | 
+| DanceTrack | 62.6 | 48.4 | 81.1 | 89.9| 63.4 | 
 
 * As of Mar 9th, 2023, Deep-OC-SORT ranks 1st compared to published methods on MOT17 and MOT20 w.r.t. HOTA. It improves tracking performance on DanceTrack over [OC-SORT](https://github.com/noahcao/OC_SORT) by ~6 HOTA.
 
