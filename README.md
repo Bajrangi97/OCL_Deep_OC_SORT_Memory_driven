@@ -63,7 +63,6 @@ data
 |        └——————test
 |        └——————val
 ```
-
 and run:
 
 ```
@@ -73,10 +72,7 @@ python3 data/tools/convert_dance_to_coco.py
 ```
 
 ## Evaluation
-bicdsvcdshcbiduvcbd sikc vi hskbcj cujsbkvcd svcujdsb kcdsvcdskj vc
-```
-python3 demo.py
-```
+
 
 
 For the MOT17/20 and DanceTrack baseline:
