@@ -28,7 +28,7 @@ Result on DanceTrack Test Dataset
 Tested with Python3.8 on Ubuntu 20.04. More versions will likely work.
 
 After cloning, install external dependencies: 
-After cloning the repo, First create a cache folder in main and inside that put cmc_files and download embedings from this link and put it in cache folder parrellel to cmc_files.
+After cloning the repo, download the cache folder from this link and placed it into Enhance Deep-OC-SORT : memory Driven folder.
 ```
 cd external/YOLOX/
 pip install -r requirements.txt && python setup.py develop
