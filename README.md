@@ -29,6 +29,8 @@ Tested with Python3.8 on Ubuntu 20.04. More versions will likely work.
 
 After cloning, install external dependencies: 
 After cloning the repo, download the cache folder from this link and placed it into Enhance Deep-OC-SORT : memory Driven folder.
+cache link: https://drive.google.com/drive/folders/1ucRzQxJJgIez9Bj0PMK0hWcjgAuqDvxp?usp=sharing
+
 ```
 cd external/YOLOX/
 pip install -r requirements.txt && python setup.py develop
