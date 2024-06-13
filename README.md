@@ -1,4 +1,4 @@
-# Deep-OC-SORT
+# Enhance Deep-OC-SORT : memory Driven
 
 [![arXiv](https://img.shields.io/badge/arXiv-2302.11813-<COLOR>.svg)](https://arxiv.org/abs/2302.11813) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&color=red)
 
@@ -9,7 +9,7 @@
 <img src="pipeline.png" width="600"/>
 </center>
 
-Results on Val dataset
+Results on  MOT17 Val dataset
 
 | Dataset          | HOTA | AssA | IDF1 | 
 | ---------------- | ---- | ---- | ---- | 
@@ -25,7 +25,7 @@ Result on DanceTrack Test Dataset
 
 ## Installation
 
-Tested with Python3.8 on Ubuntu 18.04. More versions will likely work.
+Tested with Python3.8 on Ubuntu 20.04. More versions will likely work.
 
 After cloning, install external dependencies: 
 ```
@@ -126,6 +126,14 @@ Formatted with `black --line-length=120 --exclude external .`
 # Citation
 
 If you find our work useful, please cite our paper: 
+```
+{
+
+}
+
+```
+
+Also cite this paper 
 ```
 @article{maggiolino2023deep,
     title={Deep OC-SORT: Multi-Pedestrian Tracking by Adaptive Re-Identification}, 
