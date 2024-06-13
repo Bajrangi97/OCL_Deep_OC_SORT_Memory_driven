@@ -127,9 +127,10 @@ Go to: ./external/fast_reid/datasets
 ```
 # run the command
 python3 generate_mot_patches.py
+```
 After run this traning data will store at:
 OCL_DEEP_OC_SORT-exp/external/fast_reid/datasets/dancetrack-ReID
-```
+
 After That run the command for training the fastReID module:
 Go to ./OCL_DEEP_OC_SORT-exp/external/fast_reid
 ```
