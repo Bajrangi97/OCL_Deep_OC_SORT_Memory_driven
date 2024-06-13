@@ -1,6 +1,6 @@
 # Enhance Deep-OC-SORT : memory Driven
 
-[![arXiv](https://img.shields.io/badge/arXiv-2302.11813-<COLOR>.svg)](https://arxiv.org/abs/2302.11813) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![test](https://img.shields.io/static/v1?label=By&message=Pytorch&color=red)
+
 
 
 
