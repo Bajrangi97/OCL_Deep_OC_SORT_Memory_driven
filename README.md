@@ -28,7 +28,7 @@ Result on DanceTrack Test Dataset
 Tested with Python3.8 on Ubuntu 20.04. More versions will likely work.
 
 After cloning, install external dependencies: 
-In this repo I am only uploading the cache of DanceTrack for MOT17 and MOT20 you can
+After cloning the repo, First create a cache folder in main and inside that put cmc_files and download embedings from this link and put it in cache folder parrellel to cmc_files.
 ```
 cd external/YOLOX/
 pip install -r requirements.txt && python setup.py develop
