@@ -78,7 +78,7 @@ python3 data/tools/convert_dance_to_coco.py
 For the MOT17/20 and DanceTrack baseline:
 
 ```
-exp=baseline
+#exp=baseline
 # Flags to disable all the new changes
 python3 main.py --exp_name $exp --post --emb_off --cmc_off --aw_off --new_kf_off --grid_off --dataset mot17
 python3 main.py --exp_name $exp --post --emb_off --cmc_off --aw_off --new_kf_off --grid_off -dataset mot20 --track_thresh 0.4
