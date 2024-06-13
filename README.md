@@ -127,6 +127,18 @@ Go to: ./external/fast_reid/datasets
 ```
 # run the command
 python3 generate_mot_patches.py
+After run this traning data will store at:
+OCL_DEEP_OC_SORT-exp/external/fast_reid/datasets/dancetrack-ReID
+```
+After That run the command for training the fastReID module:
+Go to ./OCL_DEEP_OC_SORT-exp/external/fast_reid
+```
+python3 tools/train_net.py --config-file ./configs/dancetrack/bagtricks_R50.yml --num-gpus 4
+```
+For Training the FastReID on ViT back bone change the yml file 
+#./configs/dancetrack/bagtricks_vit.yml
+```
+python3 tools/train_net.py --config-file ./configs/dancetrack/bagtricks_vit.yml --num-gpus 4
 ```
 ## Contributing
 
