@@ -141,6 +141,8 @@ For Training the FastReID on ViT back bone change the yml file
 ```
 python3 tools/train_net.py --config-file ./configs/dancetrack/bagtricks_vit.yml --num-gpus 4
 ```
+After that model will save at:
+./external/logs/dancetrack
 ## Contributing
 
 Formatted with `black --line-length=120 --exclude external .`
