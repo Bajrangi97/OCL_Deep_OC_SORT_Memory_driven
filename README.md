@@ -13,8 +13,7 @@ Results on Val dataset
 
 | Dataset          | HOTA | AssA | IDF1 | MOTA  | IDs   | Frag   |
 | ---------------- | ---- | ---- | ---- | ---- | ----- | ---- |
-| MOT17 | 64.9 | 65.9 | 80.6 | 79.4 | 1,950 | 2,040  |
-| MOT20 | 63.9 | 65.9 | 79.2 | 75.6 | 779  | 1,536  |
+| MOT17 | 70.27 | 73.57 | 82.78 |  |  |   |
 
 Result on DanceTrack Test Dataset
 
